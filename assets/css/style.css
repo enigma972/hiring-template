@@ -94,6 +94,14 @@
 	padding-bottom: 1rem;
 }
 
+.mx-auto {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.no-float {
+	float: none!important;
+}
 .w-100 {
 	width: 100%;
 }
@@ -130,6 +138,17 @@
 .signup-container .lead {
     font-size: 1.25rem;
     font-weight: 300;
+}
+
+.signup-form input{
+	height: 40px;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.signup-form input:focus {
+	border-color: #2196f3 !important;
 }
 
 .job_title {
